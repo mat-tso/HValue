@@ -24,6 +24,7 @@ library
     default-extensions:
     ghc-options: -Wall -Werror
     exposed-modules:
+        Data.HValue.Plain
         Data.HValue.Dynamic
         Data.HValue.Existential
 
