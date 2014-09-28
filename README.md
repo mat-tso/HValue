@@ -1,4 +1,4 @@
 HValue
 ======
 
-Haskell implentation of heteregeneous value
+Several attempts to implement heterogeneous values in Haskell.
