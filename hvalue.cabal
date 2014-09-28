@@ -1,0 +1,30 @@
+name: hvalue
+version: 0.0.2
+synopsis: Implementation of heteregeneous value
+description: TODO
+homepage: http://github.com/mat-tso/HValue
+bug-reports: http://github.com/mat-tso/HValue
+license: MIT
+license-file: LICENSE
+tested-with: GHC == 7.8.3
+extra-source-files: LICENSE, README.md
+author: Mat Tso
+copyright: (c) 2014, Mat Tso
+category: Data 
+build-type: Simple
+cabal-version: >=1.10
+
+source-repository head
+    type: git
+    location: git://github.com/mat-tso/HValue.git
+
+library
+    hs-source-dirs: src
+    default-language: Haskell2010
+    default-extensions:
+    ghc-options: -Wall -Werror
+    exposed-modules:
+        Data.HValue.Existential
+
+    build-depends:
+        base
