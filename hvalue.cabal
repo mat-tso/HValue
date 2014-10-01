@@ -24,6 +24,7 @@ library
         Data.HValue.Plain
         Data.HValue.Dynamic
         Data.HValue.Existential
+        Data.HValue.FDAndTLR
     -- other-modules:
 
     other-extensions:
